@@ -31,3 +31,6 @@ using Path = System.IO.Path;
 using System.Globalization;
 using System.Security.Principal;
 using System.Windows.Interop;
+using SharpCompress.Archives;
+using SharpCompress.Common;
+using System.Management;
