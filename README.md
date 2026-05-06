@@ -138,5 +138,5 @@
 
 ---
 
-- [sing‑box](https://github.com/SagerNet/sing-box) – современный универсальный прокси‑ядро.
+- [sing‑box](https://github.com/SagerNet/sing-box) – прокси‑ядро.
 - Интерфейс и логика приложения написаны на C# с использованием WPF.
