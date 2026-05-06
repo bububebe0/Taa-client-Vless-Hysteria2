@@ -1345,14 +1345,6 @@ internal class MainWindow : Window
         return bar;
     }
 
-    private static readonly string _titleBtnXaml = @"
-<ControlTemplate TargetType='Button' xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'>
-  <Border x:Name='bd' Background='{TemplateBinding Background}'>
-    <TextBlock Text='{TemplateBinding Content}' HorizontalAlignment='Center' VerticalAlignment='Center'
-               Foreground='{TemplateBinding Foreground}' FontSize='12' FontWeight='Normal'/>
-  </Border>
-</ControlTemplate>";
-
     private static ControlTemplate? _titleBtnTemplate;
     private static ControlTemplate GetTitleBtnTemplate()
     {
